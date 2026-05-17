@@ -11,7 +11,7 @@ export class CsvData {
 
   loadCsv(fileName: string): Observable<any[]> {
     return this.http
-      .get(`/data/${fileName}`, { responseType: 'text' })
+      .get(`data/${fileName}`, { responseType: 'text' })
       .pipe(
         map(csvText => this.convertCsvToArray(csvText))
       );
