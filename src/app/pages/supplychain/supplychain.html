@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+
+<section class="page-header">
+  <h1>Supply Chain Dashboard</h1>
+  <p>This page loads logistics and inventory data from supplychain.csv.</p>
+</section>
+
+<section class="kpi-section">
+  <div class="kpi-card">
+    <h2>{{ totalInventory }}</h2>
+    <p>Total Inventory Units</p>
+  </div>
+
+  <div class="kpi-card">
+    <h2>{{ averageDelivery }}%</h2>
+    <p>Average On-Time Delivery</p>
+  </div>
+
+  <div class="kpi-card">
+    <h2>{{ totalLateShipments }}</h2>
+    <p>Late Shipments</p>
+  </div>
+</section>
+
+<section class="charts-section">
+  <div class="chart-card">
+    <h2>Inbound vs Outbound Shipments</h2>
+    <canvas id="supplyShipmentChart"></canvas>
+  </div>
+
+  <div class="chart-card">
+    <h2>On-Time Delivery Trend</h2>
+    <canvas id="supplyDeliveryChart"></canvas>
+  </div>
+</section>

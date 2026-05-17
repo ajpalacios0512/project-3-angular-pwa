@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+
+<section class="page-header">
+  <h1>Production Dashboard</h1>
+  <p>This page loads manufacturing data from production.csv.</p>
+</section>
+
+<section class="kpi-section">
+  <div class="kpi-card">
+    <h2>{{ totalUnitsProduced }}</h2>
+    <p>Total Units Produced</p>
+  </div>
+
+  <div class="kpi-card">
+    <h2>{{ totalDefectiveUnits }}</h2>
+    <p>Defective Units</p>
+  </div>
+
+  <div class="kpi-card">
+    <h2>{{ averageUptime }}%</h2>
+    <p>Average Machine Uptime</p>
+  </div>
+</section>
+
+<section class="charts-section">
+  <div class="chart-card">
+    <h2>Planned vs Actual Production</h2>
+    <canvas id="productionOutputChart"></canvas>
+  </div>
+
+  <div class="chart-card">
+    <h2>Machine Uptime Trend</h2>
+    <canvas id="productionUptimeChart"></canvas>
+  </div>
+</section>

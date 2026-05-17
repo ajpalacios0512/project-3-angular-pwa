@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+
+<section class="page-header">
+  <h1>Customer Dashboard</h1>
+  <p>This page loads customer relationship data from customers.csv.</p>
+</section>
+
+<section class="kpi-section">
+  <div class="kpi-card">
+    <h2>{{ totalNewCustomers }}</h2>
+    <p>New Customers</p>
+  </div>
+
+  <div class="kpi-card">
+    <h2>{{ averageSatisfaction }}%</h2>
+    <p>Average Satisfaction</p>
+  </div>
+
+  <div class="kpi-card">
+    <h2>{{ totalSupportTickets }}</h2>
+    <p>Support Tickets</p>
+  </div>
+</section>
+
+<section class="charts-section">
+  <div class="chart-card">
+    <h2>New vs Returning Customers</h2>
+    <canvas id="customerTypeChart"></canvas>
+  </div>
+
+  <div class="chart-card">
+    <h2>Customer Satisfaction Trend</h2>
+    <canvas id="customerSatisfactionChart"></canvas>
+  </div>
+</section>

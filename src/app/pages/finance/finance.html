@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+
+<section class="page-header">
+  <h1>Finance Dashboard</h1>
+  <p>This page loads finance data from finance.csv.</p>
+</section>
+
+<section class="kpi-section">
+  <div class="kpi-card">
+    <h2>${{ totalRevenue }}</h2>
+    <p>Total Revenue</p>
+  </div>
+
+  <div class="kpi-card">
+    <h2>${{ totalExpenses }}</h2>
+    <p>Total Expenses</p>
+  </div>
+
+  <div class="kpi-card">
+    <h2>${{ totalProfit }}</h2>
+    <p>Total Profit</p>
+  </div>
+</section>
+
+<section class="charts-section">
+  <div class="chart-card">
+    <h2>Revenue and Expenses</h2>
+    <canvas id="financeRevenueChart"></canvas>
+  </div>
+
+  <div class="chart-card">
+    <h2>Monthly Profit</h2>
+    <canvas id="financeProfitChart"></canvas>
+  </div>
+</section>
