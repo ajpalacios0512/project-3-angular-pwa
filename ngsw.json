@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1779059126799,
+  "timestamp": 1779059573999,
   "index": "/project-3-angular-pwa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/project-3-angular-pwa/favicon.ico",
         "/project-3-angular-pwa/index.html",
-        "/project-3-angular-pwa/main-N4CKK2AG.js",
+        "/project-3-angular-pwa/main-BUAAG42I.js",
         "/project-3-angular-pwa/manifest.webmanifest",
         "/project-3-angular-pwa/styles-DIQG3HWW.css"
       ],
@@ -50,8 +50,8 @@
     "/project-3-angular-pwa/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/project-3-angular-pwa/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/project-3-angular-pwa/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/project-3-angular-pwa/index.html": "ed692d1cda354af43f4f8411c7e327e9e16c37be",
-    "/project-3-angular-pwa/main-N4CKK2AG.js": "1b1243af828682a56d576064a285e5fe14327f1b",
+    "/project-3-angular-pwa/index.html": "b82ef2562b15da2ce7cf7c0df4386c4c5cf18328",
+    "/project-3-angular-pwa/main-BUAAG42I.js": "0a2690655772d24574c3a58167194fcd5ef3afd9",
     "/project-3-angular-pwa/manifest.webmanifest": "3c16bb61c6022b2341948667e417f0372f889f32",
     "/project-3-angular-pwa/styles-DIQG3HWW.css": "a63c83f2246bf72d9f72b5cb30f4be1b33c12c22"
   },
