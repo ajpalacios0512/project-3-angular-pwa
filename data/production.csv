@@ -1,0 +1,7 @@
+month,units_produced,planned_output,defective_units,machine_uptime
+January,820,850,28,91
+February,870,900,25,92
+March,920,950,23,94
+April,980,1000,20,95
+May,1040,1050,18,96
+June,1100,1125,16,97

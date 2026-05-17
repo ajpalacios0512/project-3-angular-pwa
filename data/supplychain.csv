@@ -1,0 +1,7 @@
+month,inventory_units,inbound_shipments,outbound_shipments,on_time_delivery,late_shipments
+January,2400,310,285,88,34
+February,2550,325,300,89,31
+March,2700,340,320,91,28
+April,2850,360,345,92,25
+May,3000,385,370,94,21
+June,3200,410,395,95,18
